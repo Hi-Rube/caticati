@@ -1,0 +1,27 @@
+html,
+body,
+#root,
+#App {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#App .time {
+    font-size: 64px;
+    flex: 1;
+    margin-top: 100px;
+}
+
+#App .random-num {
+    font-size: 100px;
+    font-weight: 900;
+    flex: 2;
+}
